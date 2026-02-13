@@ -13,7 +13,7 @@
 
 <main>
     <section id="about">
-    <h2>About Me</h2><img src="images/profile.jpg.jpeg" alt="My Profile Picture" width="200">
+    <h2>About Me</h2><img src"C:\Users\ADMIN\OneDrive\Desktop\HTML\profile.jpg.jpeg" alt="My Profile Picture" width="200">
      <ul>
         <li>Full Name:</strong> Christine Muringi Kiboi</li>
         <li>Gender:</strong> Female</li>
@@ -23,8 +23,6 @@
     </ul>
      <h2>About Me</h2>
         <p>I am a Business Information Technology student.</p>
-    <h2>HTML as One of My Core Skills</h2>
-    <p>HTML is a markup language used to structure web content.</p>
     <h2>My Skills</h2>
   <table border="1">
     <tr>
@@ -57,6 +55,153 @@
 
   <button type="submit">Send</button>
 </form>
+ <h2>HTML as One of My Core Skills</h2>
+    <p>HTML is a markup language used to structure web content.</p>
+<html lang="en">
+<h1>HTML Elements Documentation</h1>
+
+<!-- 1. Structural Elements -->
+<section>
+    <h2>1. Structural Elements</h2>
+    <p><strong>What it is:</strong> Elements used to organize the page structure.</p>
+    <p><strong>What it is used for:</strong> To define sections like header, main content, footer, or navigation.</p>
+    <p><strong>When to use:</strong> Always when you want to structure your HTML properly for readability and semantic meaning.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;header&gt;
+    &lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;main&gt;
+    &lt;p&gt;This is the main content.&lt;/p&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;© 2026 My Website&lt;/p&gt;
+&lt;/footer&gt;
+    </pre>
+</section>
+
+<!-- 2. Text Formatting Elements -->
+<section>
+    <h2>2. Text Formatting Elements</h2>
+    <p><strong>What it is:</strong> Elements used to style text semantically.</p>
+    <p><strong>What it is used for:</strong> To emphasize, highlight, or format text.</p>
+    <p><strong>When to use:</strong> Use them instead of styling text only with CSS.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;p&gt;This is &lt;strong&gt;important&lt;/strong&gt; text.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt<p&gt;This is &lt;mark&gt;highlighted&lt;/mark&gt; text.&lt;/p&gt;
+    </pre>
+</section>
+
+<!-- 3. Lists -->
+<section>
+    <h2>3. Lists</h2>
+    <p><strong>What it is:</strong> Ordered or unordered collections of items.</p>
+    <p><strong>What it is used for:</strong> To display multiple items in a sequence (ordered) or bullet points (unordered).</p>
+    <p><strong>When to use:</strong> Use when you have a group of related items.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;ul&gt;
+    &lt;li&gt;Apples&lt;/li&gt;
+    &lt;li&gt;Bananas&lt;/li&gt;
+    &lt;li&gt;Cherries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Step One&lt;/li&gt;
+    &lt;li&gt;Step Two&lt;/li&gt;
+    &lt;li&gt;Step Three&lt;/li&gt;
+&lt;/ol&gt;
+    </pre>
+</section>
+
+<!-- 4. Links -->
+<section>
+    <h2>4. Links</h2>
+    <p><strong>What it is:</strong> Hyperlinks to other pages or websites.</p>
+    <p><strong>What it is used for:</strong> To navigate between pages or external sites.</p>
+    <p><strong>When to use:</strong> Use whenever you want users to go to another page or section.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;a href="https://www.google.com" target="_blank"&gt;Visit Google&lt;/a&gt;
+&lt;a href="#section2"&gt;Go to Section 2&lt;/a&gt;
+    </pre>
+</section>
+
+<!-- 5. Images -->
+<section>
+    <h2>5. Images</h2>
+    <p><strong>What it is:</strong> Element to display images.</p>
+    <p><strong>What it is used for:</strong> To visually enhance content or provide illustrations.</p>
+    <p><strong>When to use:</strong> Use whenever an image is necessary to convey meaning or design.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;img src="images/profile.jpg" alt="Profile Picture" width="200"&gt;
+    </pre>
+</section>
+
+<!-- 6. Tables -->
+<section>
+    <h2>6. Tables</h2>
+    <p><strong>What it is:</strong> Element to display data in rows and columns.</p>
+    <p><strong>What it is used for:</strong> Present structured data clearly.</p>
+    <p><strong>When to use:</strong> Use for data, schedules, pricing tables, etc.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;table border="1"&gt;
+    &lt;tr&gt;&lt;th>Name&lt;/th&gt;&lt;th>Age&lt;/th&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td>Christine&lt;/td&gt;&lt;td>20&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td>John&lt;/td&gt;&lt;td>22&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+</section>
+
+<!-- 7. Forms -->
+<section>
+    <h2>7. Forms</h2>
+    <p><strong>What it is:</strong> A container for user input elements.</p>
+    <p><strong>What it is used for:</strong> To collect data from users (contact, registration, feedback).</p>
+    <p><strong>When to use:</strong> Whenever you want users to submit information.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;form action="#" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;
+    &lt;label for="email"&gt;Email:&lt;/label&gt;
+    &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;
+    &lt;button type="submit"&gt;Send&lt;/button&gt;
+&lt;/form&gt;
+    </pre>
+</section>
+
+<!-- 8. Semantic Elements -->
+<section>
+    <h2>8. Semantic Elements</h2>
+    <p><strong>What it is:</strong> Elements that convey meaning about their content.</p>
+    <p><strong>What it is used for:</strong> Improves accessibility, SEO, and readability.</p>
+    <p><strong>When to use:</strong> Always use semantic tags instead of generic <code>&lt;div&gt;</code> when possible.</p>
+    <p><strong>Example:</strong></p>
+    <pre>
+&lt;header&gt;&lt;h1&gt;Site Header&lt;/h1&gt;&lt;/header&gt;
+&lt;nav&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/nav&gt;
+&lt;main&gt;&lt;p&gt;Main content here.&lt;/p&gt;&lt;/main&gt;
+&lt;article&gt;&lt;p&gt;Blog post content.&lt;/p&gt;&lt;/article&gt;
+&lt;footer&gt;&lt;p&gt;© 2026 My Website&lt;/p&gt;&lt;/footer&gt;
+    </pre>
+</section>
+
+</body>
+</html>
 
 </section>
 </main>
@@ -66,4 +211,5 @@
 </footer>
 </body>
 </html>
+
 
